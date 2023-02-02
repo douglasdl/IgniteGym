@@ -177,8 +177,155 @@ module.exports = (() => {
 
 ## Constraining the Variants
 
-## FInishing the SignIn
+## Finishing the SignIn
 
 ## Creating the SignUp
 
 # 3) Rotas Públicas
+
+## Proposal
+
+## Install the Stack Navigator
+
+Install the [React Navigation](https://reactnavigation.org/) dependencies:
+```sh
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+```
+
+## Create the routes
+
+Create a routes folder inside the src folder:
+```sh
+mkdir routes
+```
+
+Create the 'auth.routes.tsx' file:
+```sh
+cd routes
+touch auth.routes.tsx
+```
+
+## Add Typage to the routes
+
+## Create the navigation context
+
+## Removing the Header
+
+## Modifying the navigation theme
+
+## Apply authentication navigation
+
+## Define the standard image
+
+# 4) Private Routes
+
+## Proposal
+
+## Create the App interfaces structure
+
+## Install the bottom navigator
+
+Install the [bottom-tabs](https://reactnavigation.org/docs/tab-based-navigation)
+```sh
+npm install @react-navigation/bottom-tabs
+```
+
+## Create the App routes
+
+## Using the Bottom Tab
+
+## Add Typage to the routes
+
+## Removing the Header
+
+## Removing the menu label
+
+## Changing the bottom navigator icons
+
+## Styling the active and inactive menu
+
+## Styling the Bottom Navigator
+
+## App Routes Recap
+
+# 5) Finishing the interfaces
+
+## Proposal
+
+## Horizontal and Vertical Positioning
+
+## Styling the HomeHeader
+
+## UserPhoto Component
+
+## Logout Button
+
+## Finishing the HomeHeader
+
+## Create the Group component
+
+## Using the Pressable
+
+## Styling the Pressable event
+
+## Showing the selected group
+
+## Listing the groups
+
+## Exercises List Header
+
+## Create the ExerciseCard component
+
+## Listing the exercises
+
+## Home Recap
+
+## Screen Header component
+
+## History Card Component
+
+## Understanding the SelectionList
+
+## Using the SelectionList
+
+## Empty List Message
+
+## History Recap
+
+## User Profile Header
+
+## User Photo
+
+## Skeleton Effect
+
+## Change Photo Button
+
+## Name and e-mail inputs
+
+## Password input
+
+## Profile Recap
+
+## Navigate to the Exercise Screen
+
+## Create the Back button
+
+## Finish the Exercise Header
+
+## Exercise Image
+
+## Fisnishing the Exercise interface
+
+## Exercise Recap
+
+## Interfaces final adjustments
+
+# 6) Photo Galery
+
+##
+
+# 7) Forms
+
+##
