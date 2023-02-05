@@ -3,7 +3,8 @@ import { TouchableOpacity, TouchableOpacityProps } from "react-native";
 import { Entypo } from '@expo/vector-icons';
 
 type Props = TouchableOpacityProps & {
-
+    title: string;
+    details: string;
 };
 
 export function ExerciseCard({ ...rest }: Props) {
@@ -23,7 +24,7 @@ export function ExerciseCard({ ...rest }: Props) {
                 />
 
                 <VStack flex={1}>
-                    <Heading fontSize='lg' color='white' numberOfLines={1}>
+                    <Heading fontSize='lg' fontFamily="heading" color='white' numberOfLines={1}>
                         Remada Unilateral
                     </Heading>
 

@@ -324,8 +324,332 @@ npm install @react-navigation/bottom-tabs
 
 # 6) Photo Galery
 
-##
+## Proposal
+
+## Install the Image Picker
+
+Install the [Expo Image Picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+```sh
+npx expo install expo-image-picker
+```
+
+## Accessing the Photos Album
+
+## Enable the image edition
+
+## Retrive the selected image
+
+## Show the selected image
+
+## Enable the photo loading
+
+## File System
+
+## Search file info
+
+Install the [Expo File System](https://docs.expo.dev/versions/latest/sdk/filesystem/):
+```sh
+npx expo install expo-file-system
+```
+
+## Limiting the photo size
+
+## Using toast messages
+
+## Recap
 
 # 7) Forms
 
+## Proposal
+
+## Inputs with states
+
+## Understanding the React Hook Forms
+
+Install the [React Hook Form](https://react-hook-form.com/) dependencies:
+```sh
+npm install react-hook-form
+```
+
+## Controlled Inputs
+
+## Getting values from the form
+
+## Adding typage to the form data
+
+## Form initial values
+
+## Adding rules to the inputs
+
+## Getting the error message
+
+## Rules Patterns
+
+## Styling the validation messages
+
+## Styling the invalid inputs
+
+## Knowing Schema Validations
+
+Install the [Yup](npm install @hookform/resolvers yup) dependencies:
+```sh
+npm install @hookform/resolvers yup
+```
+
+## Using Schema Validations
+
+## Password validation
+
+## Password confirmation validation
+
+## Recap
+
+## Adjusting the Heading
+
+## Ending
+
+# Backend Integration
+
+# 1) Fundaments
+
+## Introduction
+
+## About the App
+
+## About the Backend
+
+## Organizing the Project
+
+## What is an API
+
+API: Application Programming Interface
+
+## HTTP Methods
+
+- Get: Read
+- Post: Create
+- Put: Update
+- Delete: Delete
+- Patch: Partial Update
+
+## HTTP Codes
+
+- 1xx: Inform
+	- 102: Processing.
+
+- 2xx: Success
+	- 200: Success.
+	- 201: Created. Usually after a POST insertion.
+
+- 3xx: Redrect
+	- 301: Permanently Moved.
+	- 302: Moved.
+
+- 4xx: Client Error
+	- 400: Bad Request.
+	- 401: Unauthorized.
+	- 404: Not Found.
+
+- 5xx: Server Error
+	- 500: Internal Server Error.
+
+
+# 2) Fetch API
+
+## Proposal
+
+## Visualizing the Database
+
+- [Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio/releases)
+
+## User Register
+
+## Get backend response
+
+## Async Await
+
+## Understanding the backend flow
+
+# 3) HTTP Client
+
+## HTTP Client
+
+## Installing the Axios
+
+Install the [Axios](https://axios-http.com/docs/intro) dependencies:
+```sh
+npm install axios
+```
+
+## Defining our API
+
+## Using Axios
+
+## Axios Exceptions
+
+## Understanding Interceptors
+
+## Creating the AppError
+
+## Handling API errors
+
+# 4) React Native Contexts
+
+## Proposal
+
+## Context Concept
+
+## Creating a Context
+
+## Add typage to the Context
+
+## Unifying the Contex Create and Provider
+
+## Creating your own Hook
+
+## Sharing States in to Context
+
+## Reviewing the SignIn Form
+
+## Updating the Context States
+
+## Getting the user data from the backend
+
+## Handle the handleSignIn exceptions
+
+## SignIn Feedback
+
+## Redirect the logged user
+
+## Install the AsyncStorage
+
+Install the [Expo AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/) dependencies:
+```sh
+npx expo install @react-native-async-storage/async-storage
+```
+
+## Persisting the logged user
+
+## Loading the logged user
+
+## Showing Loading while load the user
+
+## Showing the username
+
+## Showing the user standard photo
+
+## Creating the SignOut Method
+
+## Creating Account and logging in the user
+
+
+# 5) JWT Authentication
+
+## 
+
+## 
+
 ##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+
+# 6) Consuming the Backend
+
+##
+
+## 
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+## 
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+## 
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+
+# 7) Image Upload
+
+## 
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+
+# 8) Refresh Token
+
+## 
+
+## 
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+

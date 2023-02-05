@@ -5,12 +5,12 @@ import { TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { AuthNavigatorRoutesProps } from "@routes/auth.routes";
 
-export function HomeHeader() {
+export function HomeHeader({ name }) {
 
     const navigation = useNavigation<AuthNavigatorRoutesProps>();
 
     function handleLogout() {
-        navigation.navigate('signIn');
+        
     }
 
     return (
@@ -26,8 +26,8 @@ export function HomeHeader() {
                     Olá,
                 </Text>
 
-                <Heading color="gray.100" fontSize="md">
-                    Douglas
+                <Heading color="gray.100" fontSize="md" fontFamily="heading">
+                    { name }
                 </Heading>
             </VStack>
 

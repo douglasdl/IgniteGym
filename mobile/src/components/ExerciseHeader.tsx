@@ -23,7 +23,7 @@ export function ExerciseHeader() {
                 </TouchableOpacity>
 
                 <HStack alignItems='center' justifyContent='space-between' mt={4} mb={8} >
-                    <Heading color='gray.100' fontSize='lg' flexShrink={1} >
+                    <Heading color='gray.100' fontSize='lg' fontFamily="heading" flexShrink={1} >
                         Puxada Frontal
                     </Heading>
 
