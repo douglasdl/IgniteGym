@@ -5,7 +5,12 @@ import { useNavigation } from "@react-navigation/native";
 import { AppNavigatorRoutesProps } from "@routes/app.routes";
 import BodySvg from '@assets/body.svg';
 
-export function ExerciseHeader() {
+type ExerciseHeaderProps = {
+    name: string;
+    category: string;
+}
+
+export function ExerciseHeader({ name, category }: ExerciseHeaderProps) {
 
     const navigation = useNavigation<AppNavigatorRoutesProps>();
 
@@ -24,13 +29,13 @@ export function ExerciseHeader() {
 
                 <HStack alignItems='center' justifyContent='space-between' mt={4} mb={8} >
                     <Heading color='gray.100' fontSize='lg' fontFamily="heading" flexShrink={1} >
-                        Puxada Frontal
+                        { name }
                     </Heading>
 
                     <HStack alignItems='center'>
                         <BodySvg />
                         <Text color='gray.200' ml={1} textTransform='capitalize'>
-                            Costas
+                            { category }
                         </Text>
                     </HStack>
                 </HStack>

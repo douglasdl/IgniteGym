@@ -4,19 +4,17 @@ import { UserPhoto } from "./UserPhoto";
 import { TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { AuthNavigatorRoutesProps } from "@routes/auth.routes";
+import { useAuth } from "@hooks/useAuth";
+import defaultUserPhotoImg from '@assets/userPhotoDefault.png';
 
-export function HomeHeader({ name }) {
+export function HomeHeader() {
 
-    const navigation = useNavigation<AuthNavigatorRoutesProps>();
-
-    function handleLogout() {
-        
-    }
+    const { user, signOut } = useAuth();
 
     return (
         <HStack bg="gray.600" pt={16} pb={5} px={8} alignItems="center">
             <UserPhoto 
-                source={{ uri: "http://github.com/douglasdl.png" }}
+                source={user.avatar ? { uri: user.avatar} : defaultUserPhotoImg}
                 size={16}
                 alt="Foto de perfil do usuário"
                 mr={4}
@@ -27,12 +25,12 @@ export function HomeHeader({ name }) {
                 </Text>
 
                 <Heading color="gray.100" fontSize="md" fontFamily="heading">
-                    { name }
+                    { user.name }
                 </Heading>
             </VStack>
 
             <TouchableOpacity
-                onPress={handleLogout}
+                onPress={signOut}
             >
                 <Icon
                     as={MaterialIcons}
